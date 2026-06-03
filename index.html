@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index_reserve</title>
+</head>
+<body>
+    <h1>ตรงนี้คือ HTML heading นะ</h1>
+    <h2>ตรงนี้คือ HTML heading นะ</h2>
+    <h3>ตรงนี้คือ HTML heading นะ</h3>
+    <h4>ตรงนี้คือ HTML heading นะ</h4>
+    <h5>ตรงนี้คือ HTML heading นะ</h5>
+    <h6>ตรงนี้คือ HTML heading นะ</h6>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Iure quo eius consectetur aut numquam. Sint aliquid, quis quisquam iste dolores velit temporibus praesentium porro deleniti recusandae accusamus sequi voluptate doloribus.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Iure quo eius consectetur aut numquam. Sint aliquid, quis quisquam iste dolores velit temporibus praesentium porro deleniti recusandae accusamus sequi voluptate doloribus.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Iure quo eius consectetur aut numquam. Sint aliquid, quis quisquam iste dolores velit temporibus praesentium porro deleniti recusandae accusamus sequi voluptate doloribus.
+    </p>
+    
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=LFa1JdcZQsQEQr2P">This like is 100% save najaa</a><br><br>
+    <a href="www.google.com">This is just a google link</a><br><br>
+    <a href="about.html" target="_blank">OK,I'm serious. This is the second page</a><br><br>
+
+    <img width = 300 height = 200 src = "https://as1.ftcdn.net/jpg/04/78/57/04/1000_F_478570438_zQredKpJghQAyzaw32dkD12nmh1LbPvj.jpg" alt="Click Here!">
+
+    <!-- <table> ใช้สร้างตาราง , <tr> กำหนด table row , <th> เป็น table head , <td> เป็น table data-->
+    <table>
+        <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th> 
+        <th>Position</th>
+        </tr>
+        <tr>
+        <td>001</td>
+        <td>Jane</td>
+        <td>23</td>
+        <td>with Noon and Bow</td>
+        </tr>
+        </tr>
+        <tr>
+        <td>002</td>
+        <td>Noon</td>
+        <td>25</td>
+        <td>with Jane and Bow</td>
+        </tr>
+        </tr>
+        <tr>
+        <td>003</td>
+        <td>Bow</td>
+        <td>24</td>
+        <td>with Noon and Jane</td>
+        </tr>
+    </table>
+    <!-- <ul> = unordered list , <ol> = ordered list , <li> = list -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Moccha</li>
+    </ul>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Moccha</li>
+        <li>Americano</li>
+        <li>Robusta</li>
+        <li>Arabica</li>
+    </ol>
+
+    <b>Bold</b>
+    <strong>Important</strong>
+    <i>Italic</i>
+    <em>Emphasized</em>
+    <mark>Highlightened</mark>
+    <small>Small</small>
+    <del>ขีดฆ่า</del>
+    <ins>Inserted</ins>
+    <sub>ห้อยล่าง</sub>
+    <sup>ห้อยบน</sup>
+
+    <form action="">
+        <!--ตัว <fieldset> เอาไว้ตีกรอบส่วนที่อยากให้รวมกัน-->
+        <fieldset>
+            <legend>Personal Info</legend>
+            <!-- ตัว <label> จะใช้เพื่อกำกับไว้บรรทัดบนของช่อง input ที่เราจะรับข้อมูลเข้ามา-->
+            <label for="first name">First Name : </label> <br>
+            <input type="text" name="firstname" placeholder="Enter your first name"> <br>
+            <label for="last name">Last Name : </label> <br>
+            <input type="text" name="lastname" placeholder="Enter your last name"> <br>
+            <input type="button" value="Submit"> <br>
+        </fieldset>
+        
+        <!--ตัว <select> มีไว้สำหรับสร้างตัวเก็บตัวเลือก <option> (โดย selected ใส่เพื่อให้เปิดมาตอนแรกแล้วค่าเป็น default)-->
+        <select name="cars" id="cars">
+            <option value="select">Select</option>
+            <option value="toyota">Toyota</option>
+            <option value="isuzu">Isuzu</option>
+            <option value="hyundai" selected>Hyundai</option>
+            <option value="mazda">Mazda</option>
+        </select>
+        
+        <!--ตัว <datalist> จะคล้ายกับ <select> แต่ทำให้ <option> ไม่ต้องมีครอบปิด และสามารถพิมพ์ตัวเลือกได้-->
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="toyota">
+            <option value="isuzu">
+            <option value="hyundai" selected>
+            <option value="mazda">
+        </datalist>
+
+        <textarea name="" id="">ใส่ข้อความตรงนี้</textarea>
+        <button type="submit">Submit</button>
+
+        <!--ตรงนี้คือ type ต่าง ๆ ของ input ที่กำหนดไว้-->
+        <input type="text"> <br>
+        <input type="button" value="นี่คือปุ่ม najaa"> <br>
+        <input type="checkbox"> <br>
+        <input type="color"> <br>
+        <input type="date"> <br>
+        <input type="datetime-local"> <br>
+        <input type="email"> Email <br>
+        <input type="file"> <br>
+        <input type="hidden"> <br>
+        <input type="image"> <br>
+        <input type="month"> <br>
+        <input type="number"> <br>
+        <input type="password"> <br>
+        <input type="radio"> <br>
+        <input type="range"> <br>
+        <input type="reset"> <br>
+        <input type="search"> <br>
+        <input type="submit"> <br>
+        <input type="tel"> <br>
+        <input type="time"> <br>
+        <input type="url"> <br>
+        <input type="week"> <br>
+    </form>
+<!--Parts of HTML Block Elements-->
+    <div>
+        <p>เช้าฟาดผัดฟัก เย็นฟาดฟักผัด</p>
+        <p>ยายกินลำไย น้ำลายยายไหลย้อย</p>
+    </div>
+    
+    <hr>
+<!--Block Elements จะกว้างทั้งบรรทัด-->
+
+<!--Parts of HTML Inline Elements-->
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+
+    <span>Text 1</span>
+    <span>Text 2</span>
+    <span>Text 3</span>
+<!--Inline Elements จะกว้างแค่เท่าที่เขียน-->
+
+<!--HTML div-->
+    <div>
+        <h1>HelloWorld</h1>
+        <p>Hiii</p>
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in possimus hic consequuntur deserunt sequi et quidem veniam numquam sed pariatur, similique iure! Quod officia, nihil necessitatibus et sequi praesentium!
+        </p>
+    </div>
+<!-- <div> เอาไว้ใช้ครอบ elements ให้เป็นหมวดหมู่-->
+
+<!--HTML class-->
+    <!--HTML-->
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat dignissimos ducimus praesentium. Ex harum et provident veritatis possimus officia omnis nam dolor. Velit saepe ducimus optio eos fugiat, cum deserunt?
+
+        <div class="box">
+            Banana
+        </div>
+        <div class="box">
+            Apple
+        </div>
+    </div>
+    <!--CSS-->
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            background-color: chocolate;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: goldenrod;
+            margin: 5px;
+        }
+    </style>
+
+<!--class ใน <div> เอาไว้กำหนดเพื่อส่งข้อมูลต่อไปยัง CSS สามารถใช้ซ้ำได้-->
+
+<!--HTML ID-->
+    <!--HTML-->
+        <div id="myBox">
+
+        </div>
+    <!--CSS-->
+        <style>
+            #myBox {
+                width: 100px;
+                height: 100px;
+                background-color: lightblue;
+            }
+        </style>
+
+<!--id จะคล้าย ๆ กับ class แต่ไม่ควรใช้เขียนซ้ำแบบ class เพราะเมื่อใช้ซ้ำ จะทำให้ javascript สับสนได้-->
+    <!--Javascript-->
+    <script>
+        let myBox = document.getElementById("myBox");
+
+        myBox.addEventListener("click" , function() {
+            alert("Hello World");
+        })
+    </script>
+
+    <hr>
+
+<!-----------------------------------มาถึงส่วนของ CSS ละ----------------------------------->
+
+<!--ไปไฟล์ index2.html นะ-->
+
+<a href="html_experiment/index2.html">index2.html</a>
+
+</body>
+</html>
